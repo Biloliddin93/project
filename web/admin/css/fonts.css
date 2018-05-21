@@ -1,0 +1,55 @@
+@font-face {
+	font-family: 'AvenirNext-Regular';
+	src: url('../../fonts/AvenirNext-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AvenirNext-Bold';
+	src: url('../../fonts/AvenirNext-Bold.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AvenirNext-BoldItalic';
+	src: url('../../fonts/AvenirNext-BoldItalic.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AvenirNext-Italic';
+	src: url('../../fonts/AvenirNext-Italic.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../../fonts/Roboto-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto-Medium';
+	src: url('../../fonts/Roboto-Medium.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto-Bold';
+	src: url('../../fonts/Roboto-Bold.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto-Black';
+	src: url('../../fonts/Roboto-Black.ttf');
+	font-weight: normal;
+	font-style: normal;
+}

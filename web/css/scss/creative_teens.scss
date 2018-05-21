@@ -1,0 +1,149 @@
+.creative_teens{
+	margin-bottom: 58px;
+}
+
+.creative_teens_wrap_slider{
+	margin-bottom: 135px;
+}
+
+.creative_teens__slider, .creative_teens__slider .item{
+	height: 579px;
+}
+
+.creative_teens__slider{
+	font-size: 0;
+	.item{
+		img{
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.owl-thumbs{
+		text-align: center;
+		margin-top: -130px;
+		position: relative;
+		>*{
+			background: none;
+			padding: 0;
+			border: none;
+			display: inline-block;
+			margin-right: 18px;
+			width: 98px;
+			height: 96px;
+  			background-color: rgba(61,41,24,0.23);
+			&:last-child{
+				margin-right: 0;
+			}
+			img{
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+	.owl-nav{
+		>div{
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			margin: auto 0;
+			width: 29px;
+			height: 21px;
+		}
+		.owl-prev{
+			left: 45px;
+			background: url('../images/icons/tail-left.png') no-repeat;
+		}
+		.owl-next{
+			right: 45px;
+			background: url('../images/icons/tail-right.png') no-repeat;
+		}
+	}
+}
+
+.description__creative_teens_wrap_slider{
+	font-family: $ar;
+	font-size: 16px;
+	line-height: 1.75;
+	color: #ffffff;
+	max-width: 740px;
+	width: 100%;
+	margin-left: 80px;
+	margin-top: 50px;
+	p{
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+}
+
+.about__wrap_slider{
+  margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 1024px) {
+	.creative_teens__slider, .creative_teens__slider .item{
+		height: 500px;
+	}
+	.creative_teens_wrap_slider{
+		margin-bottom: 30px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.description__creative_teens_wrap_slider{
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 736px) {
+	.description__creative_teens_wrap_slider{
+		margin-top: 20px;
+		font-size: 14px;
+		line-height: 1.5;
+	}
+	.creative_teens{
+		margin-bottom: 30px;
+	}
+	.creative_teens__slider, .creative_teens__slider .item{
+		height: 400px;
+	}
+	.creative_teens__slider .owl-thumbs{
+		margin-top: -100px;
+	}
+	.about__wrap_slider{
+		margin-bottom: 0;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.creative_teens__slider{
+		max-width: 320px;
+		width: 100%;
+		margin: 0 auto;
+		.owl-nav{
+			display: none;
+		}
+		.owl-thumbs{
+			margin-top: -63px;
+			>*{
+				margin-right: 7px;
+				width: 53px;
+				height: 52px;
+			}
+		}
+	}
+	.creative_teens__slider, .creative_teens__slider .item{
+		height: 242px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.creative_teens_wrap_slider{
+		.blockin{
+			padding: 0;
+		}
+	}
+	.description__creative_teens_wrap_slider{
+		padding: 0 15px;
+	}
+}

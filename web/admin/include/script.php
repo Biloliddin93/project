@@ -1,0 +1,10 @@
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery.nice-select.min.js"></script>
+<script src="../js/jquery.magnific-popup.min.js"></script>
+<script src="../js/highcharts.js"></script>
+<script src="../js/baron.js"></script>
+<!-- <script src="../../js/series-label.js"></script> -->
+<!-- <script src="../../js/exporting.js"></script> -->
+<!-- <script src="../../js/export-data.js"></script> -->
+<script src="js/main.js"></script>

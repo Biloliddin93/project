@@ -1,0 +1,17 @@
+$ar: 'AvenirNext-Regular', sans-serif;
+$ab: 'AvenirNext-Bold', sans-serif;
+$abi: 'AvenirNext-BoldItalic', sans-serif;
+$ai: 'AvenirNext-Italic', sans-serif;
+$rob: 'Roboto', sans-serif;
+$robm: 'Roboto-Medium', sans-serif;
+$robb: 'Roboto-Bold', sans-serif;
+$robbk: 'Roboto-Black', sans-serif;
+
+@import 'fonts.css';
+@import '../../css/scss/_normalize.scss';
+@import 'scss/common_styles.scss';
+@import 'scss/sidebar.scss';
+@import 'scss/highcharts.scss';
+@import 'scss/settings.scss';
+@import 'scss/translations.scss';
+@import 'scss/company.scss';

@@ -1,0 +1,37 @@
+<?php
+namespace app\models;
+use yii\db\ActiveRecord;
+use yii\behaviors\TimestampBehavior;
+use yii\db\Expression;
+
+class ImgGallery extends ActiveRecord
+{
+    public static function tableName()
+    {
+        return 'img_gallery';
+    }
+
+    public function behaviors()
+    {
+        return [
+            'timestamp' => [
+                'class' => TimestampBehavior::className(),
+                'attributes' => [
+                    ActiveRecord::EVENT_BEFORE_INSERT => 'inserted_at',
+                    ActiveRecord::EVENT_BEFORE_UPDATE => 'updated_at',
+                ],
+                'value' => new Expression('NOW()'),
+            ],];
+    }
+
+    public function rules()
+    {
+        return [
+            // атрибут required указывает, что name, email, subject, body обязательны для заполнения
+            [['image_title','language_id','img_grp_id'], 'required'],
+
+        ];
+    }
+}
+
+
